@@ -21,6 +21,7 @@ app.use(
     origin: [
       "https://mern-hackathon-frontend.vercel.app",
       "http://localhost:5173",
+      "https://mern-hackathon-backend.vercel.app",
       "http://localhost:3000",
     ],
     credentials: true,
