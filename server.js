@@ -48,10 +48,10 @@ app.use(notFound);
 app.use(errorHandler);
 
 // Local development listener
-if (process.env.NODE_ENV !== "production") {
-  const PORT = process.env.PORT || 5000;
-  app.listen(PORT, () => console.log(`CivicResolve API running on port ${PORT}`));
-}
+// if (process.env.NODE_ENV !== "production") {
+//   const PORT = process.env.PORT || 5000;
+//   app.listen(PORT, () => console.log(`CivicResolve API running on port ${PORT}`));
+// }
 
 // Export for Vercel Serverless Functions
 export default app;
